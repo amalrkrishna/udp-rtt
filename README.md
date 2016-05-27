@@ -8,3 +8,8 @@ Create a UDP based MyPing utility to measure round trip time between two compute
 5. The packet length can be determined from the UDP client code, currently the packet size is set as 6.
 6. The packets will be received at the server side.
 7. Average time is calculated upon averaging the time difference.
+
+
+ 	rttserver_udp.c : UDP Server
+ 	rttclient_udp.c : UDP Client which takes input at terminal
+ 	rttclient_udp_fileinput.c : UDP Client which takes input from text.txt
